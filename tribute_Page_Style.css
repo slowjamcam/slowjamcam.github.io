@@ -1,21 +1,15 @@
 body {
-  background-color: #81542a;
-  background: linear-gradient(#ecdcc8, rgb(15, 53, 113, .65));
+  background-color: rgb(15, 55, 81, .55);;
 }
 h1 {
   text-align: center;
-  color: #000000;
+  color: #ecdcc8;
   text-transform: uppercase;
   font-family: garamond;
 }
 h2 {
   text-align: center;
-  color: #E0FFFF;
-}
-footer {
-  text-align: center;
-  text-shadow: 2px 1px 3px #81542a;
-  opacity: .6;
+  color: #ecdcc8;
 }
 #img-caption {
   text-align: center;
@@ -25,6 +19,7 @@ img {
   margin-left: auto;
   margin-right: auto;
   max-width: 500px;
+  align-items: center;
 }
 header {
   text-align: center;
@@ -37,9 +32,14 @@ header {
 }
 p {
   text-align: center;
-  color: #E0FFFF;
+  color: #ecdcc8;
   font-size: large;
 }
 #tribute-link{
-  color: #E0FFFF;
+  color: #ecdcc8;
+}
+footer {
+  text-align: center;
+  text-shadow: 2px 1px 3px #ecdcc8;
+  opacity: .6;
 }
